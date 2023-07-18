@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Secret Messages | Login</title>
+{% endblock %}
+
+{% block body %}
+<br>
+<h2>Login</h2>
+{% with messages = get_flashed_messages()%}
+    {% if messages %}
+        {% for message in messages%}
+            <h3>{{ message }}</h3>
+        {%endfor%}  
+    {%endif%}
+{%endwith%}
+<form method="POST">
+    <label>Email: </label>
+    <input type="email" required name="email">
+    <br>
+    <label>Password: </label>
+    <input type="password" required name="password">
+    <br>
+    <br>
+    <input type="submit" value="Login" id="login">
+</form>
+<a href="{{ url_for('signup') }}" id="loglink"><h4>Don't have an Account? Please Signup</h4></a>
+{% endblock %}

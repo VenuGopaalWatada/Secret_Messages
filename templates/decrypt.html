@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Secret Messages | Decrypt</title>
+{% endblock %}
+
+{% block body %}
+<h2>Type the message you want to decrypt: </h2>
+<form action="{{ url_for('decrypted') }}" method='post'>
+    <textarea required name="dec-mes" id="dec-text" cols="50px" rows="10px"></textarea>
+    <br>
+    <br>
+    <input type="submit" id="sub-dec" value="Decrypt">
+</form>
+<footer>
+    <a href="{{ url_for('logout') }}"><button id="logout">Logout</button></a>
+</footer>
+{% endblock %}

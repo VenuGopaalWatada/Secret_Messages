@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Secret Messages | Decrypted</title>
+{% endblock %}
+
+{% block body %}
+<h2>Your message is Decrypted. Below is the decrytped message.</h2>
+<h2><pre>{{ msg }}</pre></h2>
+<a href="{{ url_for('encrypt') }}"><button id="enc-but">Encrypt</button></a>
+<a href="{{ url_for('decrypt') }}"><button id="dec-but">Decrypt-Again</button></a>
+<footer>
+    <a href="{{ url_for('logout') }}"><button id="logout">Logout</button></a>
+</footer>
+{% endblock %}
