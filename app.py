@@ -151,7 +151,6 @@ def decrypted():
                 key=key+1 # Incrementing Key Value for the next iteration.
             else: # If character is an unidentified character.
                 new_message=new_message+character # No decryption of unidentified characters and assigning the character to decrypted string.
-            print(new_message) # Displaying the decrypted message.
         return render_template('decrypted.html', msg = new_message)
     except IOError:
         return render_template('decrypted.html', msg = error)
