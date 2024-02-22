@@ -1,0 +1,208 @@
+#header_text{
+    padding-left: 2%;
+    padding-top: 1%;
+}
+
+#base_body{
+    background-color: rgb(11, 186, 186);
+    text-align: center;
+    font-family: cursive;
+}
+
+#base_header{
+    background-color: rgb(139, 220, 46);
+    text-align: left;
+    overflow: hidden;
+    width: 101.27%;
+    margin-top: -2%;
+    margin-left: -.65%;
+    font-family: cursive;
+}
+
+#image{
+    width: 100%;
+    height: 200px;
+    margin-bottom: -20px;
+}
+
+#logo-image{
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 92px;
+    height: 92px;
+    margin-bottom: -20px;
+    float: left;
+}
+
+#enc-but{
+    width: 25%;
+    background-color: rgb(217, 32, 32);
+    padding: 5px 0px 5px 0px;
+    border-radius: 3px;
+    border: 1px;
+    color: whitesmoke;
+    font-family: cursive;
+}
+
+#dec-but{
+    width: 25%;
+    background-color: rgb(114, 210, 18);
+    padding: 5px 0px 5px 0px;
+    border-radius: 3px;
+    border: 1px;
+    color: whitesmoke;
+    font-family: cursive;
+}
+
+#enc-but:hover{
+    background-color: antiquewhite;
+    color: black;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+#dec-but:hover{
+    background-color: antiquewhite;
+    color: black;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+#enc-text{
+    font-family: cursive;
+    background-color: antiquewhite;
+    color: black;
+}
+
+#dec-text{
+    font-family: cursive;
+    background-color: antiquewhite;
+    color: black;
+}
+
+#sub-enc{
+    width: 15%;
+    background-color: antiquewhite;
+    padding: 5px 0px 5px 0px;
+    border-radius: 3px;
+    border: 1px;
+    color: black;
+    font-family: cursive;
+}
+
+#sub-dec{
+    width: 15%;
+    background-color: antiquewhite;
+    padding: 5px 0px 5px 0px;
+    border-radius: 3px;
+    border: 1px;
+    color: black;
+    font-family: cursive;
+}
+
+#sub-enc:hover{
+    font-family: cursive;
+    background-color: rgb(217, 32, 32);
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+#sub-dec:hover{
+    font-family: cursive;
+    background-color: rgb(114, 210, 18);
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+#login{
+    font-family: cursive;
+    width: 10%;
+    color: whitesmoke;
+    background-color: rgb(114, 210, 18);
+    padding: 3px 0px 3px 0px;
+    border-radius: 3px;
+    border: 1px;
+}
+
+#login:hover{
+    cursor: pointer;
+    color: black;
+    background-color: antiquewhite;
+}
+
+#signup{
+    font-family: cursive;
+    width: 10%;
+    color: whitesmoke;
+    background-color: rgb(114, 210, 18);
+    padding: 3px 0px 3px 0px;
+    border-radius: 3px;
+    border: 1px;
+}
+
+#signup:hover{
+    cursor: pointer;
+    color: black;
+    background-color: antiquewhite;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+ }
+
+ #loglink{
+    color:rgb(9, 70, 96);
+ }
+
+ #loglink:hover{
+    color:rgb(54, 9, 96);
+ }
+
+ #signlink{
+    color:rgb(9, 70, 96);
+ }
+
+ #signlink:hover{
+    color:rgb(54, 9, 96);
+ }
+
+ #email{
+    font-family: cursive;
+    background-color: antiquewhite;
+    color: black;
+ }
+
+ #st{
+    font-family: cursive;
+    background-color: antiquewhite;
+    color: black;
+ }
+
+ #username{
+    font-family: cursive;
+    background-color: antiquewhite;
+    color: black;
+ }
+
+ #logout{
+    width: 10%;
+    background-color: rgb(217, 32, 32);
+    padding: 3px 0px 3px 0px;
+    border-radius: 3px;
+    border: 1px;
+    color: whitesmoke;
+    font-family: cursive;
+}
+
+#logout:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+    color: black;
+}
+
+pre{
+    font-family: cursive;
+}

@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Secret Messages | Home</title>
+{% endblock %}
+
+{% block body %}
+<h2>Welcome to Secret Messages app, {{ username }}. <br>Here you can Encrypt and Decrypt your messages to have a secure conversation.</h2>
+<br>
+<a href="{{ url_for('encrypt') }}"><button id="enc-but">Encrypt</button></a>
+<a href="{{ url_for('decrypt') }}"><button id="dec-but">Decrypt</button></a>
+<footer>
+    <a href="{{ url_for('logout') }}"><button id="logout">Logout</button></a>
+</footer>
+{% endblock %}

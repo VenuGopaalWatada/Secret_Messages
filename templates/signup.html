@@ -1,0 +1,25 @@
+{% extends 'baselogin.html' %}
+
+{% block head %}
+<title>Secret Messages | Signup</title>
+{% endblock %}
+
+{% block body %}
+<br>
+<h2>Signup</h2>
+<form method="POST">
+    <label>Name: </label>
+    <input type="text" required name="username" id="username">
+    <br>
+    <label>Email: </label>
+    <input type="email" required name="email" id="email">
+    <br>
+    <label>Password: </label>
+    <input type="password" required name="password" id="st">
+    <br>
+    <br>
+    <input type="submit" value = "Signup" id='signup'>
+</form>
+<br>
+<a href="{{ url_for('login') }}" id="signlink"><h4>Already had an account? Log In</h4></a>
+{% endblock %}

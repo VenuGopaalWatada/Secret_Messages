@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Secret Messages | Encrypt</title>
+{% endblock %}
+
+{% block body %}
+<h2>Type the message you want to encrypt: </h2>
+<form action="{{ url_for('encrypted') }}" method='post'>
+    <textarea required name="enc-mes" id="enc-text" cols="50px" rows="10px"></textarea>
+    <br>
+    <br>
+    <input type="submit" id="sub-enc" value="Encrypt">
+</form>
+<footer>
+    <a href="{{ url_for('logout') }}"><button id="logout">Logout</button></a>
+</footer>
+{% endblock %}

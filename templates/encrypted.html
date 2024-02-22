@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Secret Messages | Encrypted</title>
+{% endblock %}
+
+{% block body %}
+<h2>Your message is Encrypted. You can copy the below message to share it securely. Ask the receiver of this message to use this website to decrypt and see the actual message.</h2>
+<h2><pre>{{ msg }}</pre></h2>
+<a href="{{ url_for('encrypt') }}"><button id="enc-but">Encrypt-Again</button></a>
+<a href="{{ url_for('decrypt') }}"><button id="dec-but">Decrypt</button></a>
+<footer>
+    <a href="{{ url_for('logout') }}"><button id="logout">Logout</button></a>
+</footer>
+{% endblock %}
